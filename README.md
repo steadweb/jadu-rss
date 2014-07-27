@@ -1,5 +1,15 @@
 # Steadweb\Rss #
 
+A simple RSS package which handles multiple feeds.
+
+### Requirements ###
+
+- PHP 5.4+
+
+### Optional ###
+
+- MySQL 5.x (a storage driver is provided out the box but this is injected)
+
 ### Installation via Composer ###
 
 Because we're using BitBucket, we'll need to suggest where the repo resides:
@@ -77,4 +87,3 @@ $rss->remove($feed);
 
 * RSS container update single feed items
 * Refactor how storage is handled and dealt with then adapting to a Feed instance
-

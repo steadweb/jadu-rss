@@ -1,0 +1,18 @@
+{
+    "name": "steadweb/rss",
+    "description": "RSS reader for those who want to know everything.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Steadman",
+            "email": "luke@steadweb.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	"php": ">=php5.4.0"
+    },
+    "autoload": {
+        "psr-0": {"Steadweb": "src/"}
+    }
+}

@@ -1,4 +1,4 @@
-# Steadweb\Rss #
+# Steadweb\Rss 0.1.0 #
 
 A simple RSS package which handles multiple feeds.
 

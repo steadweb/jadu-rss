@@ -66,7 +66,7 @@ class MySQL implements StorageInterface
 			if($db->execute())
 			{
 				// Foreach feed, find it's cached items.
-				foreach($db->fetchAll(PDO::FETCH_OBJ) as &$feed)
+				foreach($db->fetchAll(PDO::FETCH_OBJ) as $feed)
 				{
 					$feed->items = array();
 					$feed->items = $this->getFeedItems((int)$feed->id);

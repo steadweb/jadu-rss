@@ -27,7 +27,7 @@ The usual `require` statement is also needed:
 
 `require: { "steadweb/rss": "dev-master" }`
 
-### Features ###
+### Features
 
 - Create multiple instances of RSS containers
 - Multiple storage facilities
@@ -35,14 +35,14 @@ The usual `require` statement is also needed:
 - Delete feeds
 - Update all feeds in one go
 
-### Development Features ###
+### Development Features
 
 * Driver based
 * Interface driven: `Storage`, `Feed` and `Feed\Item`
 * Storage is injected (Dependency Injection) via main `Steadweb\Rss\Rss` container
 * Method chaining support
 
-### Api ###
+### Api
 
 Create a storage object and assign that to an instance of `Steadweb\Rss\Rss`:
 
@@ -83,7 +83,7 @@ $feed = Steadweb\Rss\Drivers\SimpleXml('http://news.php.net/group.php?group=php.
 $rss->remove($feed);
 ```
 
-### @todo ###
+### @todo
 
 * RSS container update single feed items
 * Refactor how storage is handled and dealt with then adapting to a Feed instance

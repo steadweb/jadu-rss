@@ -12,13 +12,13 @@ A simple RSS package which handles multiple feeds.
 
 ### Installation via Composer ###
 
-Because we're using BitBucket, we'll need to suggest where the repo resides:
+Because we're using Github, we'll need to suggest where the repo resides:
 
 `
 "repositories": [
         {
             "type": "vcs",
-            "url": "git@bitbucket.org:steadweb/rss.git"
+            "url": "git@github.com:steadweb/rss.git"
         }
 ],
 `
